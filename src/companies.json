@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "TechCorp",
+        "location": "New York",
+        "industry": "Technology"
+    },
+    {
+        "id": 2,
+        "name": "HealthMed",
+        "location": "California",
+        "industry": "Healthcare"
+    },
+    {
+        "id": 3,
+        "name": "FinancePlus",
+        "location": "Texas",
+        "industry": "Finance"
+    },
+    {
+        "id": 4,
+        "name": "EduLearn",
+        "location": "Florida",
+        "industry": "Education"
+    },
+    {
+        "id": 5,
+        "name": "GreenEnergy",
+        "location": "Colorado",
+        "industry": "Energy"
+    },
+    {
+        "id": 6,
+        "name": "RetailHub",
+        "location": "New York",
+        "industry": "Retail"
+    },
+    {
+        "id": 7,
+        "name": "AutoDrive",
+        "location": "Michigan",
+        "industry": "Automotive"
+    },
+    {
+        "id": 8,
+        "name": "FoodieDelight",
+        "location": "California",
+        "industry": "Food & Beverage"
+    },
+    {
+        "id": 9,
+        "name": "TravelWorld",
+        "location": "Nevada",
+        "industry": "Travel"
+    },
+    {
+        "id": 10,
+        "name": "MediaStream",
+        "location": "New York",
+        "industry": "Media"
+    }
+]
