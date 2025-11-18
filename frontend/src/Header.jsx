@@ -16,7 +16,7 @@ function Header({ isLoggedIn, onLogin, onLogout }) {
         <header className="header">
             <div className="header-content">
                 <h1 style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between',gap: '8px' }}>
-                    <img src="/src/assets/company1.webp" alt="icon" style={{ width: '45px', height: '45px', objectFit: 'cover', borderRadius: '50%', border: '2px solid rgba(255, 255, 255, 0.3)' }} />
+                    <img src="/src/assets/company1.webp" alt="icon" className="header-logo" />
                     Company Directory
                 </h1>
 
