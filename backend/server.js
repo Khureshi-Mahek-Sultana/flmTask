@@ -15,7 +15,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB connection
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/companydb', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://mahekkhureshii786_db_user:Mahek92@cluster0.5q4y577.mongodb.net/companydb', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
