@@ -39,7 +39,7 @@ function App() {
   const industries = [...new Set(companies.map(company => company.industry))]
 
   const handleSearch = () => {
-    if (searchName.trim() && selectedLocation && selectedIndustry) {
+    if (searchName.trim() || selectedLocation || selectedIndustry) {
       let filtered = companies.filter(company =>
         company.name.toLowerCase().includes(searchName.toLowerCase())
       )
