@@ -15,7 +15,7 @@ function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(!!token)
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/companies')
+    fetch('https://flmtask-backend.onrender.com/api/companies')
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to fetch companies data')
